@@ -1,43 +1,18 @@
-__pycache__/
+﻿__pycache__/
 *.py[cod]
-*$py.class
+*.class
 *.so
 .Python
 build/
-develop-eggs/
 dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
 *.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-
-# Credentials and tokens
+.venv/
+.env
 credentials.json
-token.json
-client_secret.json
+token.pickle
 *.json
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
 .DS_Store
 Thumbs.db
-
-# Application specific
-config.ini
-sync_log.txt
+logs/
+.idea/
+.vscode/
