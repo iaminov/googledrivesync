@@ -13,7 +13,7 @@ from tkinter import ttk, filedialog
 from datetime import datetime
 
 from .auth_manager import AuthManager
-from drive_manager import DriveManager
+from .drive_manager import DriveManager
 from photos_manager import PhotosManager
 from sync_engine import SyncEngine
 from conflict_resolver import ConflictResolver
@@ -332,3 +332,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
