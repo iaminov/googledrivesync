@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """
 Google Drive & Photos Sync Application
 
@@ -12,7 +12,7 @@ import tkinter as tk
 from tkinter import ttk, filedialog
 from datetime import datetime
 
-from auth_manager import AuthManager
+from .auth_manager import AuthManager
 from drive_manager import DriveManager
 from photos_manager import PhotosManager
 from sync_engine import SyncEngine
