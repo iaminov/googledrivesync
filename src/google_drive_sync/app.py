@@ -15,8 +15,8 @@ from datetime import datetime
 from .auth_manager import AuthManager
 from .drive_manager import DriveManager
 from .photos_manager import PhotosManager
-from sync_engine import SyncEngine
-from conflict_resolver import ConflictResolver
+from .sync_engine import SyncEngine
+from .conflict_resolver import ConflictResolver
 
 
 class Application(tk.Tk):
@@ -332,5 +332,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
