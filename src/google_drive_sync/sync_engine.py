@@ -1,4 +1,4 @@
-"""Sync Engine - Main synchronization logic between Google Drive and Google Photos"""
+﻿"""Sync Engine - Main synchronization logic between Google Drive and Google Photos"""
 
 import hashlib
 import logging
@@ -11,9 +11,9 @@ from enum import Enum, auto
 from pathlib import Path
 from typing import Any, Callable
 
-from drive_manager import DriveManager
-from photos_manager import PhotosManager
-from conflict_resolver import ConflictResolver, ConflictResolution
+from .drive_manager import DriveManager
+from .photos_manager import PhotosManager
+from .conflict_resolver import ConflictResolver, ConflictResolution
 
 
 class SyncResult(Enum):
