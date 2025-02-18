@@ -1,8 +1,20 @@
-﻿[build-system]
-requires = ["setuptools>=68", "wheel"]
+﻿[build-system    "google-auth>=2.23.4",
+    "Pillow>=10.1.0",
+    "python-dateutil>=2.8.2",
+    "requests>=2.31.0"
+]
+requires = ["setuptools>=68", "wheel"    "google-auth>=2.23.4",
+    "Pillow>=10.1.0",
+    "python-dateutil>=2.8.2",
+    "requests>=2.31.0"
+]
 build-backend = "setuptools.build_meta"
 
-[project]
+[project    "google-auth>=2.23.4",
+    "Pillow>=10.1.0",
+    "python-dateutil>=2.8.2",
+    "requests>=2.31.0"
+]
 name = "google-drive-photos-sync"
 version = "2.0.0"
 
@@ -12,7 +24,11 @@ readme = "README.md"
 requires-python = ">=3.10"
 
 
-authors = [{name = "iaminov", email = "iaminov@users.noreply.github.com"}]
+authors = [{name = "iaminov", email = "iaminov@users.noreply.github.com"}    "google-auth>=2.23.4",
+    "Pillow>=10.1.0",
+    "python-dateutil>=2.8.2",
+    "requests>=2.31.0"
+]
 license = {text = "MIT"}
 
 
@@ -20,5 +36,10 @@ dependencies = [
     "google-api-python-client>=2.108.0",
     "google-auth-httplib2>=0.1.1",
     "google-auth-oauthlib>=1.1.0",
+    "google-auth>=2.23.4",
+    "Pillow>=10.1.0",
+    "python-dateutil>=2.8.2",
+    "requests>=2.31.0"
 ]
+
 
