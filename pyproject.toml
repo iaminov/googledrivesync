@@ -11,3 +11,7 @@ description = "Sync media files between Google Drive and Google Photos"
 readme = "README.md"
 requires-python = ">=3.10"
 
+
+authors = [{name = "iaminov", email = "iaminov@users.noreply.github.com"}]
+license = {text = "MIT"}
+
