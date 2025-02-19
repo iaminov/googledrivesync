@@ -48,3 +48,8 @@ dependencies = [
 [project.scripts]
 gdpsync = "google_drive_sync.app:main"
 
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
