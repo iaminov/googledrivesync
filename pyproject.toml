@@ -43,3 +43,8 @@ dependencies = [
 ]
 
 
+
+
+[project.scripts]
+gdpsync = "google_drive_sync.app:main"
+
