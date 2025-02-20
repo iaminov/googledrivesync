@@ -53,3 +53,11 @@ gdpsync = "google_drive_sync.app:main"
 [tool.setuptools.packages.find]
 where = ["src"]
 
+
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=4.1",
+]
+
