@@ -98,3 +98,9 @@ dev = [
 line-length = 100
 target-version = "py310"
 
+
+
+[tool.black]
+line-length = 100
+target-version = ["py310"]
+
