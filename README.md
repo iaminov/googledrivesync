@@ -8,3 +8,10 @@ Synchronize media files between Google Drive and Google Photos.
 pip install -e .[dev]
 ```
 
+
+## Usage
+
+```bash
+gdpsync
+```
+
