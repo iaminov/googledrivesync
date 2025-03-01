@@ -15,3 +15,12 @@ pip install -e .[dev]
 gdpsync
 ```
 
+
+## Development
+
+### Running Tests
+
+```bash
+pytest tests/
+```
+
