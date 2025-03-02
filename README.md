@@ -24,3 +24,11 @@ gdpsync
 pytest tests/
 ```
 
+
+### Code Quality
+
+```bash
+black src/ tests/
+ruff check src/
+```
+
