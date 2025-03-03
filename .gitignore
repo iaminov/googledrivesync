@@ -16,3 +16,11 @@ Thumbs.db
 logs/
 .idea/
 .vscode/
+.pre-commit-config.yaml
+*.claude
+.claude/
+.cursor/
+.cursorrules
+CLAUDE.md
+WARP.md
+
