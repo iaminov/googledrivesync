@@ -1,5 +1,17 @@
 ﻿# Google Drive & Photos Sync
 
+A robust application for synchronizing media files between Google Drive and Google Photos.
+
+## Features
+
+- Two-way synchronization
+- Intelligent conflict resolution
+- Support for all major media formats
+- Secure OAuth2 authentication
+- Progress tracking and logging
+
+# Google Drive & Photos Sync
+
 Synchronize media files between Google Drive and Google Photos.
 
 ## Installation
@@ -31,4 +43,5 @@ pytest tests/
 black src/ tests/
 ruff check src/
 ```
+
 
