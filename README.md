@@ -45,3 +45,8 @@ ruff check src/
 ```
 
 
+
+## License
+
+MIT - See LICENSE file for details.
+
